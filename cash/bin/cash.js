@@ -12,7 +12,8 @@ const cash = async command => {
 	const {amount} = command;
 	const from = command.from.toUpperCase();
 	const to = command.to.filter(item => item !== from).map(item => item.toUpperCase());
-
+	console.log(from)
+	console.log(to)
 	console.log();
 	const loading = ora({
 		text: 'Converting...',

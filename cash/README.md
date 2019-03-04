@@ -1,6 +1,6 @@
-# cash
+﻿# cash
 
-> Get currency conversion.
+> Get currency conversion
 
 ![cash_picsou](https://media.giphy.com/media/xTiTnqUxyWbsAXq7Ju/giphy.gif)
 
@@ -12,16 +12,15 @@ After changing directory to the current one, you can install the libraries by us
 
 ## Usage
 
+#### Get the conversion rate for currencies
+
 Launch:
 ```sh
 ❯ node bin/index.js
 ```
 It will return the conversion rate from a default currency (USD) to others (USD, EUR, GBP, JPY by default).
 
-
-#### Get the conversion rate for particular currencies
-
-If you want to know the conversion rate from a currency to others (different from the default currencies), use the following command:
+If you want to know the conversion rate between specific currencies, use the following command:
 ```sh
 ❯ node bin/index.js --set <FROM> <TO>
 ```
